@@ -1,0 +1,20 @@
+{
+  "name": "klodzinski/csv",
+  "description": "Csv Reader and Writer",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Robert Kłodziński",
+      "email": "robert.klodzinski@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "phpoffice/phpspreadsheet": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Klodzinski\\": "src/Klodzinski"
+    }
+  }
+}
