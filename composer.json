@@ -2,6 +2,7 @@
   "name": "robklo/csv",
   "description": "Simple CSV Reader and Writer",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "Robert Kłodziński",
