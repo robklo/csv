@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "phpoffice/phpspreadsheet": "dev-master"
+    "phpoffice/phpspreadsheet": "^1.9"
   },
   "autoload": {
     "psr-4": {
