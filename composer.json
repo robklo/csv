@@ -1,6 +1,6 @@
 {
-  "name": "klodzinski/csv",
-  "description": "Csv Reader and Writer",
+  "name": "robklo/csv",
+  "description": "Simple CSV Reader and Writer",
   "type": "library",
   "authors": [
     {
@@ -8,13 +8,12 @@
       "email": "robert.klodzinski@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "phpoffice/phpspreadsheet": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "Klodzinski\\": "src/Klodzinski"
+      "Robklo\\Csv\\": "src/Robklo/Csv"
     }
   }
 }

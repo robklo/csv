@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Klodzinski\Csv;
+namespace Robklo\Csv;
 
 
 class CsvReader
@@ -12,13 +12,17 @@ class CsvReader
     private $currentData = false;
 
     private $fieldSeparator = ',';
+
     /**
      * CsvReader constructor.
      *
      * @param $csvFile
      *
-     * @throws NoDataException
+     * @param bool $hasHeader
+     * @param string $fieldSeparator
+     * @param int $ignoreFirstNRows
      * @throws CouldNotOpenFileException
+     * @throws NoDataException
      */
     public function __construct($csvFile, $hasHeader = false, $fieldSeparator = ',', $ignoreFirstNRows = 0)
     {

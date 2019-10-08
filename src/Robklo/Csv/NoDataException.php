@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Klodzinski\Csv;
+namespace Robklo\Csv;
 
 
 class NoDataException extends \Exception
