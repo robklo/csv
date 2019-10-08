@@ -9,9 +9,6 @@
       "email": "robert.klodzinski@gmail.com"
     }
   ],
-  "require": {
-    "phpoffice/phpspreadsheet": "^1.9"
-  },
   "autoload": {
     "psr-4": {
       "Robklo\\Csv\\": "src/Robklo/Csv"
