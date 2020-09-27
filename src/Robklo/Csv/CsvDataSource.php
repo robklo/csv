@@ -76,8 +76,8 @@ class CsvDataSource
     }
 
     public function forEachRow(\Closure $closure) {
-        foreach ($this->rows as $row) {
-            $closure($this->processRow($row));
+        foreach ($this->rows as $idx, $row) {
+            $closure($this->processRow($row), $idx);
         }
     }
 
