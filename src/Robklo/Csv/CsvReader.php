@@ -57,6 +57,11 @@ class CsvReader
         if ($this->currentData === false) {
             return false;
         }
+        
+        $this->currentData = array_map(function($column){                                                                              
+            $bom = pack('H*','EFBBBF');
+            return preg_replace("/^$bom/", '', $column);                                                                    
+        }, $this->currentData);
 
         return true;
     }
